@@ -1,0 +1,15 @@
+{
+  "date_initiale": 1893725400,
+  "données": [
+    {
+      "date": 1893725400,
+      "T-heure": 0,
+      "consommation_kwh": 0.0
+    },
+    {
+      "date": 1893729000,
+      "T-heure": 1,
+      "consommation_kwh": 1.331
+    }
+  ]
+}

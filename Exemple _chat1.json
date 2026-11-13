@@ -1,0 +1,92 @@
+{
+  "description": "Simulation court terme de la base lunaire avec 3 timestamps et un incident progressif dans la salle technique.",
+  "entrees": [
+    {
+      "date": 1803884400,
+      "donnees": {
+        "donnees_fixes": {
+          "stock_eau_l": 1000,
+          "stock_nourriture_kg": 500,
+          "capacite_batterie_pct": 85
+        },
+        "piece": [
+          {
+            "nom": "Cuisine",
+            "temperature_c": 22.0,
+            "humidite_pct": 49,
+            "oxygene_pct": 20.9,
+            "fumee": false
+          },
+          {
+            "nom": "Salle technique",
+            "temperature_c": 23.0,
+            "humidite_pct": 42,
+            "oxygene_pct": 20.9,
+            "intensite_a": 20.0,
+            "fumee": false
+          }
+        ]
+      }
+    },
+    {
+      "date": 1803884410,
+      "donnees": {
+        "donnees_fixes": {
+          "stock_eau_l": 1000,
+          "stock_nourriture_kg": 500,
+          "capacite_batterie_pct": 85
+        },
+        "piece": [
+          {
+            "nom": "Cuisine",
+            "temperature_c": 22.1,
+            "humidite_pct": 49,
+            "oxygene_pct": 20.9,
+            "fumee": false
+          },
+          {
+            "nom": "Salle technique",
+            "temperature_c": 25.0,
+            "humidite_pct": 42,
+            "oxygene_pct": 20.9,
+            "intensite_a": 21.0,
+            "fumee": false
+          }
+        ]
+      }
+    },
+    {
+      "date": 1803884420,
+      "donnees": {
+        "donnees_fixes": {
+          "stock_eau_l": 1000,
+          "stock_nourriture_kg": 500,
+          "capacite_batterie_pct": 85
+        },
+        "piece": [
+          {
+            "nom": "Cuisine",
+            "temperature_c": 22.0,
+            "humidite_pct": 50,
+            "oxygene_pct": 20.9,
+            "machines": [{ "machine1": 12 }, { "machine2": 15 }],
+            "fumee": false
+          },
+          {
+            "nom": "Salle technique",
+            "temperature_c": 29.0,
+            "humidite_pct": 42,
+            "oxygene_pct": 20.9,
+            "intensite_a": 23.0,
+            "machines": [
+              { "machine3": 12 },
+              { "machine4": 15 },
+              { "machine5": 17 }
+            ],
+            "fumee": true
+          }
+        ]
+      }
+    }
+  ]
+}
